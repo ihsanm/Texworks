@@ -1,0 +1,44 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath,graphicx,color,amssymb}
+\parindent=0mm
+\parskip=2mm
+\begin{document}
+\title{\LaTeX ~Practice Test 1}
+\author{Ihsan Mahmood 123456}
+\maketitle
+
+\par If $\Gamma$ =4, $\Omega$ =2, and $\omega$=3. Then $\displaystyle \Omega+\omega=5$ and $\displaystyle \Gamma- \xi= -3$.
+
+\par {\parskip=6mm Write down the (maximal) domain of the function 
+\begin{equation}
+f(x)=\frac{2}{x-2}+\frac{x}{\sqrt{x+3}}
+\end{equation}}
+
+\par {\parindent=13mm \parskip=-4mm domian($f$)=$\{ x \in \mathbb{R} | x >$-3 and $x \neq 2 \}= (-3,2) \cup (2,\infty)$}
+
+\par Consider the following function 
+\begin{equation*}
+\rho = \sqrt{\cos(6\theta)}0 < \theta < \frac{\pi}{12}
+\end{equation*}
+
+its derivative is given by
+\begin{equation}
+\frac{d\rho}{d\theta}= -\frac{3\sin(6\theta)}{\sqrt{\cos{6\theta}}}
+\end{equation}
+
+\par The following is a definite integral
+\begin{equation}
+\int^{\frac{\pi}{3}}_{\frac{\pi}{6}}\cos(2\theta)d\theta=\left[\frac{\sin(2\theta)}{2}\right] ^{\pi/3}_{\pi/6}
+\end{equation}
+
+\par Find all the values of $x$ for which the power series below converges.
+\begin{equation}
+\sum^{\infty}_{n=0}\frac{(-1)^nx^n}{n!}
+\end{equation}
+
+\par Solution: Let $u_n$= $\frac{(-1)^{n}{x}^{n}}{n!}$ then
+\begin{equation*}
+\left| \frac{u_{n+1}}{u_n}\right|=\left|\frac{(-1)^{n+1}x^{n+1}}{(n+1)!}\times \frac{n!}{(-1)^nx^n}\right|= \frac{|x|}{n+1} \rightarrow 0
+\end{equation*}
+as $n \rightarrow \infty$. By the ratio test, this series converges for all $x\in \mathbb{R}$.(It is, in fact, the power series for $e^{-x}$.)
+\end{document}
